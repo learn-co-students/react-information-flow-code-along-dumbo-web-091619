@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Parent />
+        <Parent parent_value="test parent value"/>
       </div>
     )
   }
